@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: library-management-minor
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/library-management-spring
+    username: root
+    password: play@123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
